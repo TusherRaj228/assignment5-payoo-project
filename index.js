@@ -12,3 +12,11 @@ heartButtons.forEach((btn) => {
    heartCounter.textContent = count;
   });
 });
+
+// call button
+document.querySelectorAll(".call-btn")
+.addEventListener("click",function(e){
+     e.preventDefault()
+     console.log("call button clicked")
+
+})
